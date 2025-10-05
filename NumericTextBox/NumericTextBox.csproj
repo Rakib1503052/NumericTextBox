@@ -17,7 +17,8 @@
 		<PackageProjectUrl>https://github.com/Rakib1503052/NumericTextBox</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Rakib1503052/NumericTextBox</RepositoryUrl>
 		<PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
-		<PackageLicenseFile>$(ProjectDir)LICENSE</PackageLicenseFile>
+		<PackageLicenseFile>LICENSE</PackageLicenseFile>
+		<PackageReadmeFile>README</PackageReadmeFile>
 	</PropertyGroup>
 
 	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
@@ -26,6 +27,13 @@
 
 	<ItemGroup>
 	  <None Include="LICENSE">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Update="README">
 	    <Pack>True</Pack>
 	    <PackagePath>\</PackagePath>
 	  </None>

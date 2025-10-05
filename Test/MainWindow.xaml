@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test"
-        xmlns:ntb="clr-namespace:NumericTextBox;assembly=NumericTextBox"
+        xmlns:ntb="https://github.com/Rakib1503052/NumericTextBox/xaml"
         mc:Ignorable="d"
         Title="TextBox Test" Height="280" Width="550">
     <Grid>
@@ -30,7 +30,7 @@
         <Label Content="Hex" Grid.Row="4" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Center" FontSize="14" Margin="0"/>
 
         <ntb:IntTextBox x:Name="IntBox" Grid.Row="1" Grid.Column="1" Margin="2" FontSize="14" VerticalContentAlignment="Center"/>
-        <ntb:FloatTextBox x:Name="FloatBox" Grid.Row="2" Grid.Column="1" Margin="2" FontSize="14" VerticalContentAlignment="Center"/>
+        <ntb:FloatTextBox x:Name="FloatBox" Grid.Row="2" Grid.Column="1" Margin="2" FontSize="14" VerticalContentAlignment="Center" Scientific="True"/>
         <ntb:UIntTextBox x:Name="UIntBox" Grid.Row="3" Grid.Column="1" Margin="2" FontSize="14" VerticalContentAlignment="Center"/>
         <ntb:HexTextBox x:Name="HexBox" Grid.Row="4" Grid.Column="1" Margin="2" FontSize="14" VerticalContentAlignment="Center"/>
 
