@@ -6,9 +6,9 @@
 		<UseWPF>true</UseWPF>
 		<ImplicitUsings>disable</ImplicitUsings>
 		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-		<Authors>rakib11771</Authors>
+		<Authors>Rakibul Islam</Authors>
 		<PackageId>sNumericTextBox</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Title>NumericTextBox</Title>
 		<SignAssembly>False</SignAssembly>
 		<Description>A class library of derivatives of TextBox to restrict user input to numeric values only (integer, floating and hexadecimal).</Description>
