@@ -44,14 +44,15 @@ RestrictTo8Bytes: Restricts the user input to 8 byte value or 16 hexadecimal dig
 All the user input value can be accessed anytime from the "Value" property present in every
 class.
 
-XML Namespace URI: https://github.com/Rakib1503052/NumericTextBox/blob/master/NumericTextBox/README
+XML Namespace URI: https://github.com/Rakib1503052/NumericTextBox/
 
 Example usage:
 
+```
 <Window x:Class="DemoApp.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:ntb="https://github.com/Rakib1503052/NumericTextBox/blob/master/NumericTextBox/README"
+        xmlns:ntb="https://github.com/Rakib1503052/NumericTextBox/"
         Title="CoolTextBox Demo" Height="200" Width="300">
     
 	<Grid>
@@ -59,3 +60,4 @@ Example usage:
 		<ntb:HexTextBox AlwaysUpper="True" RestrictTo8Bytes="True"/>
 	</Grid>
 </Window>
+```
