@@ -4,7 +4,7 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Test"
-        xmlns:ntb="https://github.com/Rakib1503052/NumericTextBox/xaml"
+        xmlns:ntb="https://github.com/Rakib1503052/NumericTextBox/blob/master/NumericTextBox/README"
         mc:Ignorable="d"
         Title="TextBox Test" Height="280" Width="550">
     <Grid>
