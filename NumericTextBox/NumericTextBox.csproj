@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net6.0-windows10.0.17763.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<UseWPF>true</UseWPF>
+		<ImplicitUsings>disable</ImplicitUsings>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Authors>rakib11771</Authors>
+		<PackageId>NumericTextBox</PackageId>
+		<Version>1.0.0</Version>
+		<Title>NumericTextBox</Title>
+		<SignAssembly>False</SignAssembly>
+		<PackageLicenseExpression>DAPL</PackageLicenseExpression>
+		<Description>A class library of derivatives of TextBox to restrict user input to numeric values only (integer, floating and hexadecimal).</Description>
+		<PackageTags>
+			wpf textbox numeric int long uint ulong float double decimal hex
+		</PackageTags>
+	</PropertyGroup>
+
+	<Target Name="PostBuild" AfterTargets="PostBuildEvent">
+		<Exec Command="if not exist &quot;$(ProjectDir)Out&quot; mkdir &quot;$(ProjectDir)Out&quot;&#xD;&#xA;copy /Y &quot;$(TargetPath)&quot; &quot;$(ProjectDir)Out\&quot;" />
+	</Target>
+
+</Project>
